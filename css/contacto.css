@@ -65,6 +65,7 @@
     border-radius: 8px;
     font-size: 20px;
     font-family: 'Abril Fatface', cursive;
+    cursor: pointer;
 }
 
 .contacto__boton:hover{
