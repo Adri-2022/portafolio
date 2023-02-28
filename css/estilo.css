@@ -1,0 +1,84 @@
+:root {
+    --color--body: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    --color-de-link: #696464;
+    --color-rodapie: #784eeb;
+    --color-formulario: rgb(152, 150, 243);
+    --color-box: rgba(117, 95, 110, 0.973);
+    --nombres-box: antiquewhite;
+    --categoria: #0a0a0a;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--color--body);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Abril Fatface', cursive;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+.categoria{
+    color: var(--categoria);
+}
+
+.categoria:hover{
+    color: gold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    margin-top: 10px;
+    padding: 0 40px;
+}
+
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 10px;
+    width: 380px;
+}
+
+.menu__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-size: 20px;
+}
+
+.menu__img {
+    height: 60%;
+    width: 10%;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+}
+
+h2{
+    font-family: 'Cormorant Garamont', serif;
+}

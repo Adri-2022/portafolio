@@ -1,0 +1,49 @@
+.proyectos{
+    margin: 3rem;
+}
+
+.proyectos__titulo{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 80px;
+}
+
+.proyectos__titulo:hover{
+    font-size: 50px;
+}
+
+.proyectos__box{
+    border-color: rgb(243, 238, 238);
+    border-radius: 25px;
+    border-style: double;
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+
+.proyectos__img{
+    height: 500px;
+    width: 850px;
+    padding-left: 5rem;
+}
+
+.proyectos__info{
+    padding: 0 7rem;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.proyectos__description{
+    display: flex;
+    gap: 20px;
+}
+
+.experiencia__boton{
+    background: var(--color-formulario);
+    
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+    height: 30px;
+    padding: 3px 3px;
+}

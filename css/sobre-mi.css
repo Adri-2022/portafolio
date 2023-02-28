@@ -1,0 +1,13 @@
+.sobre-mi__container{
+    margin: 3rem;
+    text-align: center;
+}
+
+.sobre-mi__titulo{
+   font-size: 35px;
+   font-family: 'Abril Fatface', cursive
+}
+
+.sobre-mi__titulo:hover{
+    font-size: 50px;
+}

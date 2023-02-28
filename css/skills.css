@@ -1,0 +1,38 @@
+.skills{
+    margin: 3rem;
+}
+
+.skills__titulo{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 80px;
+}
+
+.skills__titulo:hover{
+    font-size: 50px;
+}
+
+.skills__linea{
+    display: flex;
+    padding: 0 7rem ;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.skills__box{
+    background: var(--color-box);
+    width: 100%;
+}
+
+.skills-img{
+    height: 80px;
+}
+
+.skills__img{
+    margin-bottom: 30px;
+}
+
+.skills__nombre{
+    color: var(--nombres-box);
+}

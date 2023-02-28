@@ -1,0 +1,72 @@
+
+
+.contacto{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.contacto__container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    width: 50%;
+    gap: 70px;
+}
+
+.contacto__imagen{
+    margin-left: 2rem;
+}
+
+.contacto__titulo {
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contacto__titulo:hover{
+    font-size: 50px;
+}
+
+.contacto_subtitulo {
+    font-size: 20px;
+    margin-top: 0;
+    width: 30vw;
+}
+
+.contacto__texto{
+    display: block;
+}
+
+.contacto__formulario{
+    display: grid;
+    gap: 5px;
+}
+
+.contacto__input{
+    border: none;
+    border-radius: 5px;
+    background: var(--color-formulario);
+    font-family: inherit;
+}
+
+#message{
+    background: var(--color-formulario);
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    overflow: auto;
+}
+
+.contacto__boton{
+    background: var(--color-formulario);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contacto__boton:hover{
+    font-size: 35px;
+}

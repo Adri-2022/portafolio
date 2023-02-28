@@ -1,0 +1,34 @@
+.formacion{
+    margin: 3rem 0;
+}
+
+.formacion__titulo{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0;
+}
+
+.formacion__titulo:hover{
+    font-size: 50px;
+}
+
+.formacion__cursos{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.formacion__cursos__box{
+    width: 30%;
+}
+
+.img{
+    height: 200px;
+    padding: 5rem 0 0 2rem;
+    width: 203px;
+}
+
+.formacion__cursos__item__titulo p{
+    text-align: center;
+}

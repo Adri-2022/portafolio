@@ -1,0 +1,38 @@
+.pasatiempos{
+    margin: 3rem;
+}
+
+.pasatiempos__titulo{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 80px;
+}
+
+.pasatiempos__titulo:hover{
+    font-size: 50px;
+}
+
+.pasatiempos__div{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 7rem;
+    gap: 200px;
+}
+
+.pasatiempos__box{
+    background: var(--color-box);
+    width: 100%;
+}
+
+.pasatiempos__img{
+    margin-bottom: 30px;
+}
+
+.pasatiempos-img{
+    height: 80px;
+}
+
+.pasatiempos__nombre{
+    color: var(--nombres-box);
+}
